@@ -9,8 +9,8 @@ export default function TestimonialsPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <PageBanner 
-        title="Member Transformations" 
-        subtitle="Hear from students whose lives were changed by joining Toastmasters."
+        title="Parent Testimonials" 
+        subtitle="Hear from parents whose children's lives were transformed by Emerald Voices."
       />
       <section className="py-20 bg-muted flex-grow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -35,7 +35,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-primary-foreground/80 mb-10"
             >
-              Join a vibrant student community where communication and leadership skills grow through real-world speaking experiences.
+              Join a vibrant school community where communication and leadership skills grow through real-world speaking experiences.
             </motion.p>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export default function Home() {
       <section className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle 
-            title="Why Join Toastmasters?" 
+            title="Why Join Emerald Voices?" 
             subtitle="Discover the benefits of becoming a part of our supportive learning environment."
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -79,9 +79,12 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">Empowering Students to Speak with Impact</h2>
+              <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">A Proud Initiative by Emerald Groups</h2>
+              <p className="text-lg text-muted-foreground mb-4">
+                We nurture student talent across multiple disciplines through <strong className="text-foreground">Emerald Voices</strong>, <strong className="text-foreground">Emerald Musics</strong>, and <strong className="text-foreground">Emerald Readers</strong>.
+              </p>
               <p className="text-lg text-muted-foreground mb-6">
-                Our club is more than just a place to practice speeches. It&apos;s a community of ambitious students who support each other in overcoming the fear of public speaking and developing essential leadership skills for the future workplace.
+                This platform is dedicated to <strong className="text-foreground">Emerald Voices</strong>, where we empower ambitious students to overcome the fear of public speaking and develop essential leadership skills for the future.
               </p>
               <ul className="space-y-4 mb-8">
                 {['Weekly structured meetings', 'Constructive, positive feedback', 'Leadership opportunities', 'Networking with peers'].map((item, idx) => (
@@ -132,7 +135,7 @@ export default function Home() {
              transition={{ delay: 0.1 }}
              className="text-lg md:text-xl text-primary-foreground/80 mb-10"
           >
-            Attend our next meeting as a guest and see what Toastmasters is all about. No pressure to speak!
+            Attend our next meeting as a guest and see what Emerald Voices is all about. No pressure to speak!
           </motion.p>
           <motion.div
              initial={{ opacity: 0, y: 20 }}

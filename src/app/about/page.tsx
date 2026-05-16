@@ -17,7 +17,7 @@ export default function AboutPage() {
     <div className="flex flex-col min-h-screen">
       <PageBanner 
         title="About Our Club" 
-        subtitle="Learn about our history, mission, and the values that drive our student community."
+        subtitle="Learn about our history, mission, and the values that drive our school community."
       />
       
       <section className="py-20 bg-background">
@@ -29,12 +29,17 @@ export default function AboutPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-heading font-bold mb-6">What is Toastmasters?</h2>
+              <h2 className="text-3xl font-heading font-bold mb-6">About Emerald Groups & Emerald Voices</h2>
               <p className="text-lg text-muted-foreground mb-4">
-                Toastmasters International is a nonprofit educational organization that teaches public speaking and leadership skills through a worldwide network of clubs.
+                At <strong className="text-foreground">Emerald Groups</strong>, we believe in holistic development. We have established several initiatives to nurture student talents across various domains:
               </p>
+              <ul className="list-disc list-inside text-lg text-muted-foreground mb-6 space-y-2 ml-2">
+                <li><strong className="text-foreground">Emerald Voices:</strong> Our public speaking and leadership club (our very own Toastmasters) to help you master communication.</li>
+                <li><strong className="text-foreground">Emerald Musics:</strong> A creative space to explore musical talents and collaborative performances.</li>
+                <li><strong className="text-foreground">Emerald Readers:</strong> A community dedicated to literature, critical thinking, and a shared love for reading.</li>
+              </ul>
               <p className="text-lg text-muted-foreground mb-6">
-                Our university chapter brings these world-class programs directly to students. We provide a safe, encouraging environment where you can practice speaking in front of an audience, learn how to give and receive constructive feedback, and take on leadership roles that prepare you for your future career.
+                This platform is the official home of <strong className="text-foreground">Emerald Voices</strong>. We provide a safe, encouraging environment where you can practice speaking in front of an audience, learn how to give and receive constructive feedback, and take on leadership roles that prepare you for your future.
               </p>
             </motion.div>
             <motion.div

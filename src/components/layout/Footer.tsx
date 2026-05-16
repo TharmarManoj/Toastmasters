@@ -12,7 +12,7 @@ export function Footer() {
                 <Mic2 className="h-6 w-6 text-white" />
               </div>
               <span className="font-heading font-bold text-xl tracking-tight">
-                Toastmasters
+                Emerald Voices
               </span>
             </Link>
             <p className="text-primary-foreground/80 text-sm mt-4 leading-relaxed">
@@ -24,7 +24,7 @@ export function Footer() {
             <h3 className="font-heading font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link href="/about" className="text-primary-foreground/80 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="/events" className="text-primary-foreground/80 hover:text-white transition-colors">Events</Link></li>
+              {/* <li><Link href="/events" className="text-primary-foreground/80 hover:text-white transition-colors">Events</Link></li> */}
               <li><Link href="/team" className="text-primary-foreground/80 hover:text-white transition-colors">Our Team</Link></li>
               <li><Link href="/gallery" className="text-primary-foreground/80 hover:text-white transition-colors">Gallery</Link></li>
             </ul>

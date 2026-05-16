@@ -2,7 +2,7 @@ export const TEAM_MEMBERS = [
   {
     name: "Alex Carter",
     role: "President",
-    description: "Alex is a public speaking enthusiast with 3 years of Toastmasters experience.",
+    description: "Alex is a public speaking enthusiast with 3 years of speaking experience.",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop",
     social: { linkedin: "#", twitter: "#" }
   },
@@ -19,20 +19,6 @@ export const TEAM_MEMBERS = [
     description: "David is the first point of contact for guests and new members joining our club.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=600&auto=format&fit=crop",
     social: { linkedin: "#", twitter: "#" }
-  },
-  {
-    name: "Emily Chen",
-    role: "Secretary",
-    description: "Emily keeps our club organized, managing records and communications smoothly.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop",
-    social: { linkedin: "#", twitter: "#" }
-  },
-  {
-    name: "Michael Torres",
-    role: "Treasurer",
-    description: "Michael manages club finances and ensures we are always funded for events.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop",
-    social: { linkedin: "#", twitter: "#" }
   }
 ];
 
@@ -41,7 +27,7 @@ export const UPCOMING_EVENTS = [
     title: "Mastering the Art of Storytelling",
     date: "October 15, 2026",
     time: "6:00 PM - 8:00 PM",
-    venue: "Student Union, Room 302",
+    venue: "School Auditorium",
     description: "Learn how to craft compelling stories that captivate your audience from start to finish.",
   },
   {
@@ -62,22 +48,22 @@ export const UPCOMING_EVENTS = [
 
 export const TESTIMONIALS = [
   {
-    name: "Jessica Rivera",
-    role: "Computer Science Major",
-    quote: "Toastmasters completely changed my college experience. I went from being terrified of presentations to actually looking forward to them. It's a supportive environment.",
+    name: "Ananya Iyer",
+    role: "Mother of an 8th Grader",
+    quote: "Emerald Voices has brought a remarkable change in my daughter. She used to be very shy, but now she confidently participates in school debates. The supportive environment is exactly what she needed.",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop"
+  },
+  {
+    name: "Rajesh Kumar",
+    role: "Father of a 10th Grader",
+    quote: "The leadership and public speaking skills my son developed here are outstanding. He now takes initiative in group projects and isn't afraid to express his ideas clearly. Highly recommended!",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200&auto=format&fit=crop"
+  },
+  {
+    name: "Kavita Sharma",
+    role: "Mother of a 6th Grader",
+    quote: "I was amazed to see my son deliver a speech so eloquently. Emerald Voices provides excellent constructive feedback that helps kids grow without feeling criticized. It's a wonderful initiative.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop"
-  },
-  {
-    name: "Omar Hassan",
-    role: "Business Administration",
-    quote: "The leadership skills I developed here helped me secure my dream internship. You don't just learn to speak; you learn how to listen, evaluate, and lead teams.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
-  },
-  {
-    name: "Priya Patel",
-    role: "Psychology Major",
-    quote: "I love the community here. Everyone wants you to succeed. The feedback is always constructive, and the friendships I've made are incredible.",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop"
   }
 ];
 
@@ -101,7 +87,7 @@ export const FEATURES = [
   },
   {
     title: "Networking",
-    description: "Connect with driven students across different majors and expand your professional network."
+    description: "Connect with driven students across different grades and expand your peer network."
   },
   {
     title: "Constructive Feedback",

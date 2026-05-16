@@ -28,8 +28,8 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-heading font-semibold text-lg mb-1">Club Location</h4>
-                    <p className="text-muted-foreground">Student Union Building, Room 302<br />University Campus</p>
+                    <h4 className="font-heading font-semibold text-lg mb-1">Location</h4>
+                    <p className="text-muted-foreground">Coimbatore<br />Tamil Nadu, India</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -38,7 +38,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-heading font-semibold text-lg mb-1">Meeting Times</h4>
-                    <p className="text-muted-foreground">Every Thursday<br />6:00 PM - 7:30 PM</p>
+                    <p className="text-muted-foreground">Every Saturday & Sunday<br />6:00 PM - 7:30 PM</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -47,7 +47,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-heading font-semibold text-lg mb-1">Email</h4>
-                    <p className="text-muted-foreground">hello@universitytoastmasters.edu</p>
+                    <p className="text-muted-foreground">emeraldvoices2026@gmail.com</p>
                   </div>
                 </div>
               </div>
