@@ -17,7 +17,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Toastmasters Student Club",
+  title: "Emerald Voices",
   description: "Build Confidence. Master Public Speaking. Become a Leader.",
 };
 

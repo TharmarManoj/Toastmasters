@@ -43,7 +43,7 @@ export function Navbar() {
               <Mic2 className="h-6 w-6 text-primary-foreground" />
             </div>
             <span className="font-heading font-bold text-xl tracking-tight text-foreground">
-              Toastmasters
+              Emerald Voices
             </span>
           </Link>
 

@@ -59,7 +59,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-primary-foreground/60 text-sm">
-          <p>&copy; {new Date().getFullYear()} Toastmasters Student Club. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Emerald Groups. All rights reserved.</p>
         </div>
       </div>
     </footer>
